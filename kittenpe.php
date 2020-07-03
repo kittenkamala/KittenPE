@@ -85,7 +85,6 @@ if ( class_exists( 'kittenPE' )) {
 register_activation_hook( __FILE__, array( $kittenPE, 'activate'));
 register_deactivation_hook( __FILE__, array( $kittenPE, 'deactivate'));
 add_shortcode( 'python', array( $kittenPE , 'pythonEmbed' ) );
-//register_uninstall_hook( __FILE__, array( $kittenPE, 'uninstall'));
 
 
 
